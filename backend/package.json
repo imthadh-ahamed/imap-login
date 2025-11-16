@@ -1,0 +1,36 @@
+{
+  "name": "gmail-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for Gmail email fetching assignment",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "db:create": "node migrations/createdb.js",
+    "db:clean": "node migrations/clean-db.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "googleapis": "^105.0.0",
+    "helmet": "^7.1.0",
+    "imap-simple": "^4.3.0",
+    "joi": "^17.11.0",
+    "mailparser": "^3.6.5",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.5.2",
+    "sequelize": "^6.32.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.5",
+    "jest": "^29.7.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}
