@@ -4,14 +4,7 @@ A full-stack application for managing Gmail emails using OAuth2 authentication, 
 
 ## 📦 Installation
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/imthadh-ahamed/imap-login.git
-cd imap-login
-```
-
-### 2. Backend Setup
+### 1. Backend Setup
 
 ```bash
 cd backend
@@ -56,7 +49,7 @@ Start the backend server:
 npm run dev
 ```
 
-### 3. Frontend Setup
+### 2. Frontend Setup
 
 ```bash
 cd ../frontend
